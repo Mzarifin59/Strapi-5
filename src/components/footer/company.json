@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_footer_companies",
+  "info": {
+    "displayName": "Company",
+    "icon": "briefcase"
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "text"
+    },
+    "LogoCompany": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_navbar_menus",
+  "info": {
+    "displayName": "Menu",
+    "icon": "dashboard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "url": {
+      "type": "text"
+    },
+    "subMenu": {
+      "displayName": "subMenu",
+      "type": "component",
+      "repeatable": true,
+      "component": "navbar.sub-menu"
+    }
+  }
+}

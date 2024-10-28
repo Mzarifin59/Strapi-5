@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_page_buttons",
+  "info": {
+    "displayName": "button",
+    "icon": "bold"
+  },
+  "options": {},
+  "attributes": {
+    "categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::category.category"
+    }
+  }
+}

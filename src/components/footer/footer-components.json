@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_footer_footer_components",
+  "info": {
+    "displayName": "FooterComponents",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "companyAddress": {
+      "type": "richtext"
+    },
+    "company": {
+      "type": "component",
+      "repeatable": false,
+      "component": "footer.company"
+    },
+    "copyright": {
+      "type": "text"
+    },
+    "categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::category.category"
+    }
+  }
+}

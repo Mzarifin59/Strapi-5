@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_shared_seos",
+  "info": {
+    "displayName": "seo",
+    "icon": "search",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "metaDescription": {
+      "type": "text",
+      "required": true,
+      "maxLength": 160,
+      "minLength": 50
+    },
+    "keywords": {
+      "type": "text",
+      "regex": "[^,]+"
+    }
+  }
+}

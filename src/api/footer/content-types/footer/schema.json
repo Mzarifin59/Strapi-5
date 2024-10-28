@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "footers",
+  "info": {
+    "singularName": "footer",
+    "pluralName": "footers",
+    "displayName": "Footer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "companyAddress": {
+      "type": "richtext"
+    },
+    "company": {
+      "type": "component",
+      "repeatable": false,
+      "component": "footer.company"
+    },
+    "copyright": {
+      "type": "string"
+    },
+    "categoryMenu": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.related-article"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_navbar_navbar_components",
+  "info": {
+    "displayName": "NavbarComponents",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "logoImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "menu": {
+      "type": "component",
+      "repeatable": true,
+      "component": "navbar.sub-menu"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_page_media_socials",
+  "info": {
+    "displayName": "MediaSocial",
+    "icon": "earth"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "text"
+    },
+    "logoImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
